@@ -9,19 +9,24 @@
                             {{name}}
                         </li>
                     {{/if}}
+                    {{#if pass}}
+                        <li style="color:green;">
+                            {{name}}
+                        </li>
+                    {{/if}}
         
                 {{/each}}
             </ul>
 
-            {{#if status.failed}}
+            {{!#if status.failed}}
                 <ul>
                     {{#each children}}
-                        {{#if status.failed}}
+                        {{!#if status.failed}}
                             {{> recursiveFolder this}}
-                        {{/if}}
+                        {{!/if}}
                     {{/each}}
                 </ul>
-            {{/if}}
+            {{!/if}}
         </li>
     </ul>
 </div>
