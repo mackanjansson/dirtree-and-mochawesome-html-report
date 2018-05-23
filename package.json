@@ -1,0 +1,23 @@
+{
+  "name": "dirtree-and-mochawesome-html-report",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mackanjansson/dirtree-and-mochawesome-html-report.git"
+  },
+  "author": "Marcus Jansson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mackanjansson/dirtree-and-mochawesome-html-report/issues"
+  },
+  "homepage": "https://github.com/mackanjansson/dirtree-and-mochawesome-html-report#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "handlebars": "^4.0.11"
+  }
+}
